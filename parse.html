@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+const myJSON = '{ "name": "Toyota Rav4", "engine": "2.5L", "price": 32000 }';
+const myObj = JSON.parse(myJSON);
+document.getElementById("demo").innerHTML = myObj.name+" "+myObj.engine+" "+myObj.price;
+</script>
+
+</body>
+</html>
